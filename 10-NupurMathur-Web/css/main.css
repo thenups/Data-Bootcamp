@@ -1,0 +1,158 @@
+/* ------------- */
+/* BODY SECTIONS */
+/* ------------- */
+
+div .section-background-main {
+  background-color: #fff;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+div .section-background-side {
+  background-color: #fff;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+
+/* ---- */
+/* BODY */
+/* ---- */
+
+div .summary-text {
+  display: block;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+img.main-summary {
+  position: relative;
+  float: left;
+  margin: 0 25px 10px 0;
+}
+
+.viz-sidebar-thumb ul{
+    list-style-type: none;
+}
+
+.viz-sidebar-thumb li{
+  /* position: relative; */
+  display: inline-block;
+}
+.responsive-thumb-width img {
+    width:50%;
+}
+
+@media (max-width: 992px) {
+    .responsive-thumb-width img {
+        width:50%;
+    }
+    .viz-sidebar-thumb li {
+      /* position: relative; */
+      display: inline-block;
+      width: 50%;
+    }
+}
+
+
+/* -------- */
+/* ELEMENTS */
+/* -------- */
+
+body {
+  background-color: #ededed;
+}
+
+
+h1 {
+  color: #4baaa5;
+  font-weight: bold;
+}
+
+h2 {
+  color: #4baaa5;
+  font-weight: bold;
+}
+
+h5 {
+  color: #4baaa5;
+}
+
+div .linebreak {
+  height: 2px;
+  margin: 20px 0 20px 0;
+  background-color: #f6f6f6;
+}
+
+
+/* ---------- */
+/* NAVIGATION */
+/* ---------- */
+
+nav.nav-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.full-width-nav {
+    background-color: #fff;
+    width: 100%;
+    height:inherit;
+}
+
+nav a#site-name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #4baaa5;
+    padding: 10px 15px 10px 15px;
+}
+
+@media (max-width: 768px) {
+    .full-width-nav {
+        background-color: #4baaa5;
+    }
+    .viz-sidebar-thumb li {
+      /* position: relative; */
+      display: inline-block;
+      width: 50%;
+    }
+    .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    }
+}
+
+
+/* ------ */
+/* FOOTER */
+/* ------ */
+
+.bottom-footer {
+  background-color: #666666;
+  margin-top: 50px;
+  padding: 25px 25px 25px 25px;
+  border-top: solid #4baaa5 10px;
+  line-height: 25px;
+}
+#footer-text {
+  margin: 0;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.box {
+    height: 20px;
+    width: 15px;
+    background-color: blue;
+}
