@@ -15,7 +15,7 @@
 
   </head>
   <body>
-    <!-- Header -->
+    <!-- Nav Bar -->
     <div class="full-width-nav">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light nav-padding">
@@ -63,9 +63,9 @@
             <div class="linebreak"></div>
 
             <div class="summary-text">
-              <img src="images/max_temp.png" alt="max temp graph" width="300px" class="main-summary">
+              <img src="apiHW/figures/temperature.png" alt="max temp graph" width="300px" class="main-summary">
 
-              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 1000 cities.</p>
 
               <p>After assembpling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and nhumidity. The site provides the source data and visualization created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
 
@@ -80,28 +80,22 @@
             <div class="linebreak"></div>
 
             <div class="row">
-              <ul class="viz-sidebar-thumb">
-                  <li class=".viz-sidebar-thumb"><a href="#">
-                      <img src="images/max_temp.png" alt="Max Temperature" class=
-                  "responsive-thumb-width">
-                  </a></li>
-                  <li class=".viz-sidebar-thumb"><a href="#">
-                      <img src="images/cloudiness.png" alt="Cloudiness" class=
-                      "responsive-thumb-width">
-                  </a></li>
-                  <li class=".viz-sidebar-thumb"><a href="#">
-                      <img src="images/cloudiness.png" alt="Cloudiness" class=
-                      "responsive-thumb-width">
-                  </a></li>
-                  <li class=".viz-sidebar-thumb"><a href="#">
-                      <img src="images/humidity.png" alt="Humidity" class=
-                      "responsive-thumb-width">
-                  </a></li>
-                  <li class=".viz-sidebar-thumb"><a href="#">
-                      <img src="images/wind.png" alt="Wind Speed" class=
-                      "responsive-thumb-width">
-                  </a></li>
-              </ul>
+              <div class="viz-thumbs"><a href="#">
+                  <img src="apiHW/figures/temperature.png" alt="Max Temperature" class=
+                  "responsive-thumb">
+              </a></div>
+              <div class="viz-thumbs"><a href="#">
+                  <img src="apiHW/figures/cloudiness.png" alt="Cloudiness" class=
+                  "responsive-thumb">
+              </a></div>
+              <div class="viz-thumbs"><a href="#">
+                  <img src="apiHW/figures/humidity.png" alt="Humidity" class=
+                  "responsive-thumb">
+              </a></div>
+              <div class="viz-thumbs"><a href="#">
+                  <img src="apiHW/figures/wind.png" alt="Wind Speed" class=
+                  "responsive-thumb">
+              </a></div>
 
               </div>
             </div>
@@ -112,7 +106,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="container-fluid bottom-footer">
+    <div class="container-fluid bottom-footer page-footer">
 
       <div class="row">
 
