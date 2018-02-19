@@ -91,6 +91,8 @@ div.compare-sections{
 
 ul.fix-overflow {
     overflow: auto;
+    list-style: none;
+    padding: 0;
 }
 
 div.viz-thumbs{
@@ -196,11 +198,6 @@ h5 {
 
 p {
   margin-bottom: 20px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
 }
 
 div .linebreak {
