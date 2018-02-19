@@ -83,9 +83,14 @@ img.main-summary {
 
 div.compare-sections{
   display: inline-block;
+  padding:10px;
   float: left;
   position: relative;
   width: 50%;
+}
+
+ul.fix-overflow {
+    overflow: auto;
 }
 
 div.viz-thumbs{
@@ -105,14 +110,25 @@ div#compare-four {
 
 img.responsive-thumb {
     width: 500px;
+    padding: 5px;
     height: auto;
     max-width: 100%;
+}
+
+#selected-thumb {
+    border: 3px solid #4baaa5;
 }
 
 img.responsive-img {
   width: 500px;
   height: auto;
   max-width: 100%;
+}
+
+#detail-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 992px) {
@@ -184,7 +200,6 @@ p {
 
 ul {
     list-style: none;
-    overflow: auto;
     padding: 0;
 }
 

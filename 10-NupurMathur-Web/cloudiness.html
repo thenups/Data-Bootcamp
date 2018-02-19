@@ -15,6 +15,7 @@
 
   </head>
   <body>
+
       <!-- Nav Bar -->
       <div class="full-width-nav">
           <div class="container">
@@ -54,64 +55,69 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-12">
+        <div class="col-lg-7">
           <div class="section-background-main">
             <div class="">
-              <h1>Comparison</h1>
+              <h1>Latitude vs. Cloudiness</h1>
             </div>
 
             <div class="linebreak"></div>
 
-            <p>Click any plot to get an in-depth analysis.</p>
-
             <div class="summary-text">
-                <ul class="text-center fix-overflow">
+              <img src="apiHW/figures/cloudiness.png" alt="max temp graph" id="detail-img" class="responsive-img">
 
-                    <div id="compare-one" class="compare-sections separate-sections" ><a href="temperature.html">
-                        <li><h5>Max Temperature vs.</h5></li>
-                        <li class="">
-                            <img src="apiHW/figures/temperature.png" alt="Max Temperature" class="responsive-thumb">
-                        </li>
-                    </a></div>
-
-                    <div id="compare-two" class="compare-sections separate-sections separate-sections-top-pad"><a href="cloudiness.html">
-                        <li><h5>Cloudiness vs.</h5></li>
-                        <li class="">
-                            <img src="apiHW/figures/cloudiness.png" alt="Cloudiness" class="responsive-thumb">
-                        </li>
-                    </a></div>
-
-                    <div id="compare-three" class="compare-sections separate-sections separate-sections-top-pad"><a href="humidity.html">
-                        <li><h5>Humidity vs.</h5></li>
-                        <li class="">
-                            <img src="apiHW/figures/humidity.png" alt="Humidity" class="responsive-thumb">
-                        </li>
-                    </a></div>
-
-                    <div id="compare-four" class="compare-sections separate-sections-top-pad"><a href="wind.html">
-                        <li><h5>Wind Speed vs.</h5></li>
-                        <li class="">
-                            <img src="apiHW/figures/wind.png" alt="Wind Speed" class="responsive-thumb">
-                        </li>
-                    </a></div>
-                </ul>
+              <p>It is cloudier north of the equator between 30-70 degrees. There is a larger varaiety of cloudiness as well, concentration at 0, 20, 40, 80, 90, 100. However, south of the equator, there is only a concetration at around 80. You can also see, that the area with the least cloudiness, is right along the equator</p>
 
             </div>
           </div>
         </div>
 
-        <!-- Footer -->
-        <div class="container-fluid bottom-footer page-footer">
+        <div class="col-lg-5">
+          <div class="section-background-side">
+            <h2>Visualizations</h2>
 
-          <div class="row">
+            <div class="linebreak"></div>
 
-            <div class="col text-center">
+            <div class="row">
+              <div class="viz-thumbs"><a href="temperature.html">
+                  <img src="apiHW/figures/temperature.png" alt="Max Temperature" class=
+                  "responsive-thumb">
+              </a></div>
+              <div id="selected-thumb" class="viz-thumbs"><a href="cloudiness.html">
+                  <img src="apiHW/figures/cloudiness.png" alt="Cloudiness" class=
+                  "responsive-thumb">
+              </a></div>
+              <div class="viz-thumbs"><a href="humidity.html">
+                  <img src="apiHW/figures/humidity.png" alt="Humidity" class=
+                  "responsive-thumb">
+              </a></div>
+              <div class="viz-thumbs"><a href="wind.html">
+                  <img src="apiHW/figures/wind.png" alt="Wind Speed" class=
+                  "responsive-thumb">
+              </a></div>
 
-              	<p id="footer-text">&copy; Copyright Coding Bootcamp 2017</p>
-
+              </div>
             </div>
           </div>
         </div>
+
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid bottom-footer page-footer">
+
+      <div class="row">
+
+        <div class="col text-center">
+
+            <p id="footer-text">&copy; Copyright Coding Bootcamp 2017</p>
+
+        </div>
+      </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
